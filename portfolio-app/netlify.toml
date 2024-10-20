@@ -1,6 +1,3 @@
-[build]
-  publish = "build" # or your specific build output folder
-  command = "npm run build" # or yarn build
 
 [[redirects]]
   from = "/*"
