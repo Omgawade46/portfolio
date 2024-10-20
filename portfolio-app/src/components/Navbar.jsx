@@ -91,26 +91,26 @@ const Navbar = () => {
       <div className='hidden lg:flex flex fixed flex-col top-[35%] left-0'>
         <ul>
           <li className='w-[150px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-800'>
-            <a className='flex justify-between items-center w-full text-gray-300' href="/">
+            <button className='flex justify-between items-center w-full text-gray-300' href="/">
               Linked <FaLinkedin size={30} />
-            </a>
+            </button>
           </li>
           <li className='w-[150px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3333333]'>
-            <a className='flex justify-between items-center w-full text-gray-300' href="/">
+            <button className='flex justify-between items-center w-full text-gray-300' href="/">
               Github <FaGithub size={30} />
-            </a>
+            </button>
           </li>
           <li className='w-[150px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <Link to="contact" smooth={true} duration={500}>
-              <a className='flex justify-between items-center w-full text-gray-300'>
+              <button href="#" className='flex justify-between items-center w-full text-gray-300 '>
                 Email <HiOutlineMail size={30} />
-              </a>
+              </button>
             </Link>
           </li>
           <li className='w-[150px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-            <a onClick={toggleImage} className='flex justify-between items-center w-full text-gray-300' href="#">
+            <button onClick={toggleImage} className='flex justify-between items-center w-full text-gray-300' href="#">
               Resume <BsFillPersonLinesFill size={30} />
-            </a>
+            </button>
           </li>
         </ul>
       </div>
