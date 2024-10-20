@@ -59,28 +59,28 @@ const Navbar = () => {
       </div>
 
       {/* Mobile menu */}
-      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-        <li className='py-6 text-4xl'>
+      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#020509] flex flex-col justify-center items-center'}>
+        <li className='py-6 text-4xl hover:text-yellow-400'>
           <Link onClick={handClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:text-yellow-400'>
           <Link onClick={handClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:text-yellow-400'>
           <Link onClick={handClick} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:text-yellow-400'>
           <Link onClick={handClick} to="project" smooth={true} duration={500}>
             Project
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:text-yellow-400'>
           <Link onClick={handClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -125,7 +125,7 @@ const Navbar = () => {
             <img
               src={resume}
               alt="Example"
-              style={{ width: '700px', height: '700px',  borderRadius: '10px' }}
+              style={{ width: '700px', height: '700px',  padding: '3px',  borderRadius: '10px' }}
             />
             </button>
             
