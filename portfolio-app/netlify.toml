@@ -1,0 +1,8 @@
+[build]
+  publish = "build" # or your specific build output folder
+  command = "npm run build" # or yarn build
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
